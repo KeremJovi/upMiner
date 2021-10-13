@@ -1,8 +1,8 @@
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import princeMononoke from "../../assets/mononoke.jpg";
-import princeIce from "../../assets/princeIce.jpg";
-import princeViolet from "../../assets/VioletEvergarden.jpg";
+import EmpOne from "../../assets/emp1.png";
+import EmpTwo from "../../assets/emp2.png";
+import EmpThree from "../../assets/emp3.png";
 import "./style.scss";
 
 export function CarouselMain() {
@@ -17,13 +17,13 @@ export function CarouselMain() {
         className="carousel"
       >
         <div>
-          <img src={princeMononoke} alt="princesa mononoke" />
+          <img src={EmpOne} alt="princesa mononoke" />
         </div>
         <div>
-          <img src={princeIce} alt="princesa do gelo" />
+          <img src={EmpTwo} alt="princesa do gelo" />
         </div>
         <div>
-          <img src={princeViolet} alt="princesa Violet Evergarden" />
+          <img src={EmpThree} alt="princesa Violet Evergarden" />
         </div>
       </Carousel>
     </div>

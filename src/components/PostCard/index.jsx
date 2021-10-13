@@ -1,4 +1,8 @@
+import { useHistory } from "react-router-dom";
+
 export const PostCard = ({ id, img, title, text, price }) => {
+  const { push } = useHistory();
+
   return (
     <>
       <div className="one-cards">
@@ -8,8 +12,14 @@ export const PostCard = ({ id, img, title, text, price }) => {
           <p>{text}</p>
         </div>
         <section className="info">
-          <p>{price}</p>
-          <button>Saiba Mais</button>
+          <p>{price.toFixed(2)}</p>
+          <button
+            onClick={() => {
+              push(`/Details/${id}`);
+            }}
+          >
+            Saiba Mais
+          </button>
         </section>
       </div>
     </>

@@ -1,8 +1,25 @@
+.order {
+  display: flex;
+  margin: 0 0 30px 0;
+}
+.order p {
+  text-tranform: uppercase;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-left: 3%;
+}
+.order select {
+  width: 12rem;
+  height: 2rem;
+  margin: auto 0;
+  margin-left: 50px;
+}
 .container {
   min-height: 100vh;
   background: #fff;
   margin: 0 auto;
   width: 95%;
+  margin-bottom: 50px;
 }
 .all-cards {
   display: grid;
