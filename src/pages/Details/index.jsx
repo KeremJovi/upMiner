@@ -7,7 +7,7 @@ import HistEmpThree from "../../assets/hist-emp3.jpg";
 import "./style.scss";
 import { CarouselMain } from "./../../components/CarouselMain/index";
 
-export function Details({ title }) {
+export function Details() {
   return (
     <div>
       <CarouselMain />

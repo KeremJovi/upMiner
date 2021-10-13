@@ -13,6 +13,7 @@ import "../Cards/style.scss";
 
 import { Component } from "react";
 import { PostCard } from "../PostCard";
+import { Details } from "./../../pages/Details/index";
 
 class Cards extends Component {
   state = {
