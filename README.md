@@ -2,7 +2,7 @@
 
 Primeiros passos 
 
-Baixar as dependencias 
+Baixar as dependências 
 -> npm install
 
 Para reproduzir o aplicativo web
