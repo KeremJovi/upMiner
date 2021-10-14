@@ -15,8 +15,8 @@ export function Buttons({ buttonList, onButtonClick, onClearFilter }) {
       ))}
       <button className="buttons" onClick={() => onClearFilter()}>
         <div className="contents">
-          <img src={All} alt="todos" />
-          <p>Todos</p>
+          <img src={All} alt="Clear" />
+          <p>Limpar seleção</p>
         </div>
       </button>
     </div>
